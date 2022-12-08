@@ -57,11 +57,11 @@
   },
   {
     "id": 7,
-    "remarks": "oslook/clash-freenode",
-    "site": "https://github.com/oslook/clash-freenode",
-    "url": "https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml",
+    "remarks": "AzadNetCH/Clash",
+    "site": "https://github.com/AzadNetCH/Clash",
+    "url": "https://github.com/AzadNetCH/Clash/raw/main/AzadNet.yml|https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_IRAN-Direct1.yml|https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_IRAN-Direct2.yml",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 8,
@@ -161,19 +161,19 @@
   },
   {
     "id": 20,
-    "remarks": "Jinxnet 节点池",
-    "site": "https://pool.jinxnet.xyz",
-    "url": "https://pool.jinxnet.xyz/clash/proxies",
+    "remarks": "gfwglass 节点池",
+    "site": "https://gfwglass.tk",
+    "url": "https://gfwglass.tk/clash/proxies",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 21,
-    "remarks": "tomdegnan/clashrule",
-    "site": "https://github.com/tomdegnan/clashrule",
-    "url": "https://raw.githubusercontent.com/tomdegnan/clashrule/master/lava",
+    "remarks": "Meteor-1337/Meteor",
+    "site": "https://github.com/Meteor-1337/Meteor",
+    "url": "https://raw.githubusercontent.com/Meteor-1337/Meteor/main/MeteorVIPFLY",
     "update_method": "auto",
-    "enabled": false
+    "enabled": true
   },
   {
     "id": 22,
@@ -185,9 +185,9 @@
   },
   {
     "id": 23,
-    "remarks": "changfengoss",
+    "remarks": "ronghuaxueleng/get_v2",
     "site": "https://github.com/ronghuaxueleng/get_v2",
-    "url": "https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/combine.yaml",
+    "url": "https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/changfengoss.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/jiang.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/ssr.yaml",
     "update_method": "auto",
     "enabled": true
   },
