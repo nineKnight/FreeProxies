@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本_1216014, server: 00000000000000000000000000000000000000000000000000000000000003a.node-for-bigairport.win, port: 80, type: vmess, uuid: 46851ea7-e4bc-4f34-b28a-3b3bd0925bbb, alterId: 0, cipher: auto, tls: false}
   - {name: HK_AzadNet, server: 20.187.85.198, port: 443, type: trojan, password: b26e31e5-eac1-45b0-9069-83830bd69521, sni: hkt.iamnotagoodman.com, skip-cert-verify: true}
+  - {name: HK_AzadNet(1), server: 104.208.100.101, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, sni: uk.liangyuandian.top, skip-cert-verify: true}
   - {name: JP_AzadNet, server: 45.66.134.219, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true}
   - {name: JP_AzadNet(1), server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true}
   - {name: JP_AzadNet(2), server: 132.226.5.246, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: true}
@@ -37,7 +37,6 @@ proxies:
   - {name: 🇨🇳 台湾_1216027, server: twtp.azzhuangaping.tw, port: 80, type: vmess, uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /adobe, headers: {Host: twtp.azzhuangaping.tw}}}
   - {name: 🇨🇳 台湾_1216028, server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.asuka.buzz}}}
   - {name: 🇨🇳 台湾_1216239, server: cdn.gmpora.me, port: 80, type: vmess, uuid: 7496964f-b535-4266-903e-85c986a1584a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: ar.gmpora.me}}}
-  - {name: 🇨🇳 台湾_1216240, server: cdn.gmpora.me, port: 8080, type: vmess, uuid: 7496964f-b535-4266-903e-85c986a1584a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.gmpora.me}}}
   - {name: 🇨🇳 台湾_1216251, server: tw2.czs1000.com, port: 4011, type: vmess, uuid: e9a3d6af-718e-4cf7-ad6c-4173bb822ba2, alterId: 0, cipher: auto, tls: true}
   - {name: 🇨🇳 台湾_1216254, server: 18c035a5-cfa0-6e07-6906-834de3b3eb73.cnnic.rip, port: 80, type: vmess, uuid: 0bd3dda2-88e8-4e7c-a46e-7db7d1d3cb4d, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇳 台湾_1216257, server: 211.23.160.243, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.33061222.xyz}}}
@@ -49,6 +48,7 @@ proxies:
   - {name: 🇸🇬 新加坡_1216008, server: 43.156.121.93, port: 34243, type: vmess, uuid: 2b164ad5-6900-4c12-8104-0369a1de84eb, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: 🇸🇬 新加坡_1216011, server: sg.bgp.01.nekocloud.cn, port: 19079, type: vmess, uuid: 4ed09c54-c3c6-35dc-9e9d-f023715591b2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dahjwuh, headers: {Host: sg.bgp.01.nekocloud.cn}}}
   - {name: 🇸🇬 新加坡_1216012, server: sg-linode.01.nekocloud.cn, port: 19057, type: vmess, uuid: 4ed09c54-c3c6-35dc-9e9d-f023715591b2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /catnet, headers: {Host: sg-linode.01.nekocloud.cn}}}
+  - {name: 🇸🇬 新加坡_1216013, server: singapore1.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: singapore1.csadata4g.me}}}
   - {name: US_AzadNet(4), server: 150.230.201.192, port: 443, type: trojan, password: f42e1a2e-e650-44f4-8d17-bcb68663da18, sni: www.seetheworldjp.ga, skip-cert-verify: true}
   - {name: US_AzadNet(5), server: 150.230.249.20, port: 443, type: trojan, password: b5fc9fa9-796d-4185-a316-395ecac04a85, sni: www.gomacau.gq, skip-cert-verify: true}
   - {name: US_AzadNet(6), server: 107.189.31.41, port: 12378, type: vmess, uuid: 9e312ef5-6d40-4fcb-ceb3-4c7a69bbe0b3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /@Backdor_Filter}}
@@ -63,22 +63,19 @@ proxies:
   - {name: 🇨🇦 加拿大_1216020, server: riop.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Danhuang/Jiang, headers: {Host: riop.miaoge110.cf}}}
   - {name: 🇨🇦 加拿大_1216021, server: 35.182.165.120, port: 443, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray}}
   - {name: 🇨🇦 加拿大_1216022, server: 71.19.248.161, port: 443, type: vmess, uuid: 3d173f0a-138b-4baf-9ec6-4848243e0a12, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.63657274.xyz}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 106, server: 164.90.234.85, port: 18492, type: ss, cipher: chacha20-ietf-poly1305, password: fdRAl4scWDTg}
-  - {name: GB_AzadNet, server: 185.44.76.188, port: 443, type: trojan, password: 8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 100, server: 104.248.148.147, port: 21888, type: vmess, uuid: ae7486f9-d7b7-4f26-97a0-dc5b093dfa89, alterId: 1, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 104.248.148.147}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 99, server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b67947, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: 46.182.107.39}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 134, server: 185.167.116.24, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8}
   - {name: GB_AzadNet(7), server: 51.89.22.228, port: 443, type: trojan, password: 67e200f1-4ff5-42ca-8425-3f16f7986c29, sni: t1.samsung.bforward2.uk, skip-cert-verify: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 98, server: ping.pe, port: 443, type: vmess, uuid: 3a3e263d-223f-49cc-bbdb-f7e07a55e6fe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /111111.online, headers: {Host: ping.pe}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 95, server: 154.17.1.251, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 132, server: 86.106.136.125, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: 46.182.107.45}}}
   - {name: NL_AzadNet, server: 185.246.155.35, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY}
   - {name: NL_AzadNet(1), server: 185.246.155.23, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
   - {name: NL_AzadNet(5), server: 213.183.59.218, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ}
   - {name: NL_AzadNet(57), server: 95.211.249.49, port: 41065, type: vmess, uuid: a81cc101-bc8b-4124-acc6-4b1eba08fefa, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /dfgd55dg5dG}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 93, server: 213.183.63.221, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 125, server: 104.17.191.85, port: 2095, type: vmess, uuid: e3dba91f-b31c-473a-8f17-92e1dedda38f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 104.17.191.85}}}
   - {name: RU_AzadNet, server: 213.183.53.198, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 92, server: 104.18.62.179, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 104.18.62.179}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 91, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free-russian01-cdn.xiaohouzi.club}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87, server: 154.17.5.184, port: 18331, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123, server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 122, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: powerservice.com}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 120, server: 120.236.197.205, port: 3389, type: trojan, password: ba4fedf8c217c146, sni: n2.gladns.com, skip-cert-verify: false}
   - {name: VN_AzadNet, server: 103.81.85.238, port: 443, type: trojan, password: 52171d41-9367-429f-baa6-43660a6c84e4, sni: glc.hruqoaw.cn, skip-cert-verify: true}
   - {name: 公益机场https//bit.ly/3BPeo5G, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false}
   - {name: "@SSRSUB-V01-付费推荐suo.yt/ssrsub", server: 106.75.218.112, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}}
@@ -87,6 +84,9 @@ proxies:
   - {name: "@SSRSUB-V05-付费推荐suo.yt/ssrsub", server: 104.26.9.74, port: 443, type: vmess, uuid: f6c1babe-416e-47d1-8726-049678e25c7a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: us2.v2rayserv.com}}
   - {name: "@SSRSUB-V06-付费推荐suo.yt/ssrsub", server: 155.248.241.52, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
   - {name: "@SSRSUB-V08-付费推荐suo.yt/ssrsub", server: 146.56.104.236, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: "@SSRSUB-V09-付费推荐suo.yt/ssrsub", server: 146.190.2.54, port: 443, type: vmess, uuid: 2a4918de-adce-4c4e-aa00-88a4227cf6ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: 146.190.2.54}}
+  - {name: "@SSRSUB-V10-付费推荐suo.yt/ssrsub", server: 172.64.154.222, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}}
+  - {name: "@SSRSUB-V12-付费推荐suo.yt/ssrsub", server: 128.14.140.254, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -102,8 +102,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇯🇵 日本_1216014
       - HK_AzadNet
+      - HK_AzadNet(1)
       - JP_AzadNet
       - JP_AzadNet(1)
       - JP_AzadNet(2)
@@ -134,7 +134,6 @@ proxy-groups:
       - 🇨🇳 台湾_1216027
       - 🇨🇳 台湾_1216028
       - 🇨🇳 台湾_1216239
-      - 🇨🇳 台湾_1216240
       - 🇨🇳 台湾_1216251
       - 🇨🇳 台湾_1216254
       - 🇨🇳 台湾_1216257
@@ -146,6 +145,7 @@ proxy-groups:
       - 🇸🇬 新加坡_1216008
       - 🇸🇬 新加坡_1216011
       - 🇸🇬 新加坡_1216012
+      - 🇸🇬 新加坡_1216013
       - US_AzadNet(4)
       - US_AzadNet(5)
       - US_AzadNet(6)
@@ -160,22 +160,19 @@ proxy-groups:
       - 🇨🇦 加拿大_1216020
       - 🇨🇦 加拿大_1216021
       - 🇨🇦 加拿大_1216022
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 106
-      - GB_AzadNet
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 100
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 99
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 134
       - GB_AzadNet(7)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 98
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 95
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 132
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
       - NL_AzadNet
       - NL_AzadNet(1)
       - NL_AzadNet(5)
       - NL_AzadNet(57)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 93
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 125
       - RU_AzadNet
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 92
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 91
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 122
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 120
       - VN_AzadNet
       - 公益机场https//bit.ly/3BPeo5G
       - "@SSRSUB-V01-付费推荐suo.yt/ssrsub"
@@ -184,6 +181,9 @@ proxy-groups:
       - "@SSRSUB-V05-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V06-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V08-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V09-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V10-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V12-付费推荐suo.yt/ssrsub"
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -234,8 +234,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本_1216014
       - HK_AzadNet
+      - HK_AzadNet(1)
       - JP_AzadNet
       - JP_AzadNet(1)
       - JP_AzadNet(2)
@@ -266,7 +266,6 @@ proxy-groups:
       - 🇨🇳 台湾_1216027
       - 🇨🇳 台湾_1216028
       - 🇨🇳 台湾_1216239
-      - 🇨🇳 台湾_1216240
       - 🇨🇳 台湾_1216251
       - 🇨🇳 台湾_1216254
       - 🇨🇳 台湾_1216257
@@ -278,6 +277,7 @@ proxy-groups:
       - 🇸🇬 新加坡_1216008
       - 🇸🇬 新加坡_1216011
       - 🇸🇬 新加坡_1216012
+      - 🇸🇬 新加坡_1216013
       - US_AzadNet(4)
       - US_AzadNet(5)
       - US_AzadNet(6)
@@ -292,22 +292,19 @@ proxy-groups:
       - 🇨🇦 加拿大_1216020
       - 🇨🇦 加拿大_1216021
       - 🇨🇦 加拿大_1216022
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 106
-      - GB_AzadNet
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 100
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 99
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 134
       - GB_AzadNet(7)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 98
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 95
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 132
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
       - NL_AzadNet
       - NL_AzadNet(1)
       - NL_AzadNet(5)
       - NL_AzadNet(57)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 93
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 125
       - RU_AzadNet
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 92
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 91
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 122
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 120
       - VN_AzadNet
       - 公益机场https//bit.ly/3BPeo5G
       - "@SSRSUB-V01-付费推荐suo.yt/ssrsub"
@@ -316,14 +313,17 @@ proxy-groups:
       - "@SSRSUB-V05-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V06-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V08-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V09-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V10-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V12-付费推荐suo.yt/ssrsub"
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵 日本_1216014
       - HK_AzadNet
+      - HK_AzadNet(1)
       - JP_AzadNet
       - JP_AzadNet(1)
       - JP_AzadNet(2)
@@ -354,7 +354,6 @@ proxy-groups:
       - 🇨🇳 台湾_1216027
       - 🇨🇳 台湾_1216028
       - 🇨🇳 台湾_1216239
-      - 🇨🇳 台湾_1216240
       - 🇨🇳 台湾_1216251
       - 🇨🇳 台湾_1216254
       - 🇨🇳 台湾_1216257
@@ -366,6 +365,7 @@ proxy-groups:
       - 🇸🇬 新加坡_1216008
       - 🇸🇬 新加坡_1216011
       - 🇸🇬 新加坡_1216012
+      - 🇸🇬 新加坡_1216013
       - US_AzadNet(4)
       - US_AzadNet(5)
       - US_AzadNet(6)
@@ -380,22 +380,19 @@ proxy-groups:
       - 🇨🇦 加拿大_1216020
       - 🇨🇦 加拿大_1216021
       - 🇨🇦 加拿大_1216022
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 106
-      - GB_AzadNet
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 100
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 99
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 134
       - GB_AzadNet(7)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 98
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 95
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 132
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
       - NL_AzadNet
       - NL_AzadNet(1)
       - NL_AzadNet(5)
       - NL_AzadNet(57)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 93
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 125
       - RU_AzadNet
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 92
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 91
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 122
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 120
       - VN_AzadNet
       - 公益机场https//bit.ly/3BPeo5G
       - "@SSRSUB-V01-付费推荐suo.yt/ssrsub"
@@ -404,6 +401,9 @@ proxy-groups:
       - "@SSRSUB-V05-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V06-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V08-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V09-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V10-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V12-付费推荐suo.yt/ssrsub"
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
@@ -430,8 +430,8 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 日本_1216014
       - HK_AzadNet
+      - HK_AzadNet(1)
       - JP_AzadNet
       - JP_AzadNet(1)
       - JP_AzadNet(2)
@@ -462,7 +462,6 @@ proxy-groups:
       - 🇨🇳 台湾_1216027
       - 🇨🇳 台湾_1216028
       - 🇨🇳 台湾_1216239
-      - 🇨🇳 台湾_1216240
       - 🇨🇳 台湾_1216251
       - 🇨🇳 台湾_1216254
       - 🇨🇳 台湾_1216257
@@ -474,28 +473,26 @@ proxy-groups:
       - 🇸🇬 新加坡_1216008
       - 🇸🇬 新加坡_1216011
       - 🇸🇬 新加坡_1216012
+      - 🇸🇬 新加坡_1216013
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 106
-      - GB_AzadNet
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 100
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 99
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 134
       - GB_AzadNet(7)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 98
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 95
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 132
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 129
       - NL_AzadNet
       - NL_AzadNet(1)
       - NL_AzadNet(5)
       - NL_AzadNet(57)
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 93
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 125
       - RU_AzadNet
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 92
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 91
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 123
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 122
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 120
       - VN_AzadNet
       - 公益机场https//bit.ly/3BPeo5G
       - "@SSRSUB-V01-付费推荐suo.yt/ssrsub"
@@ -504,6 +501,9 @@ proxy-groups:
       - "@SSRSUB-V05-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V06-付费推荐suo.yt/ssrsub"
       - "@SSRSUB-V08-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V09-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V10-付费推荐suo.yt/ssrsub"
+      - "@SSRSUB-V12-付费推荐suo.yt/ssrsub"
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
@@ -525,6 +525,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - HK_AzadNet
+      - HK_AzadNet(1)
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
@@ -538,13 +539,13 @@ proxy-groups:
       - 🇸🇬 新加坡_1216008
       - 🇸🇬 新加坡_1216011
       - 🇸🇬 新加坡_1216012
+      - 🇸🇬 新加坡_1216013
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 日本_1216014
       - JP_AzadNet
       - JP_AzadNet(1)
       - JP_AzadNet(2)
@@ -581,7 +582,6 @@ proxy-groups:
       - 🇨🇳 台湾_1216027
       - 🇨🇳 台湾_1216028
       - 🇨🇳 台湾_1216239
-      - 🇨🇳 台湾_1216240
       - 🇨🇳 台湾_1216251
       - 🇨🇳 台湾_1216254
       - 🇨🇳 台湾_1216257
