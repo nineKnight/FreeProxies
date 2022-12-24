@@ -5,10 +5,8 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡_1224018, server: 18.143.123.35, port: 80, type: vmess, uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇯🇵 github.com/freefq - 日本  1, server: hk80-2.sanfen001.pics, port: 80, type: vmess, uuid: cd1d82d9-253c-44a7-9b2f-94c8d80b49c7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn/download, headers: {Host: a.189.cn}}}
-  - {name: 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 36, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp3.0bad.com}}}
-  - {name: 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 37, server: 157.230.36.235, port: 80, type: vmess, uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /graphql, headers: {Host: 157.230.36.235}}}
+  - {name: 🇯🇵 github.com/freefq - 日本  8, server: do2.yyhm9.com, port: 443, type: vmess, uuid: 776352ac-0a91-3d71-8450-d3b3a2b43c73, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: do2.yyhm9.com}}}
+  - {name: 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 18, server: 157.230.36.235, port: 80, type: vmess, uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /graphql, headers: {Host: 157.230.36.235}}}
   - {name: HK_AzadNet, server: 20.187.85.198, port: 443, type: trojan, password: b26e31e5-eac1-45b0-9069-83830bd69521, sni: hkt.iamnotagoodman.com, skip-cert-verify: true}
   - {name: HK_AzadNet(1), server: 104.208.100.101, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, sni: uk.liangyuandian.top, skip-cert-verify: true}
   - {name: JP_AzadNet, server: 45.66.134.219, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true}
@@ -17,8 +15,8 @@ proxies:
   - {name: TW_AzadNet, server: 211.72.35.158, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true}
   - {name: TW_AzadNet(1), server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: true}
   - {name: 🇯🇵 @SSRSUB-日本V05-付费推荐dlj.tf/ssrsub, server: http.download.yunzhongzhuan.com, port: 8080, type: vmess, uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.asuka.buzz}}}
-  - {name: 🇨🇳 台湾_1224001, server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: 0db0a479-8993-4e5b-a002-629e9e0b40e5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.asuka.buzz}}}
   - {name: 🇨🇳 台湾_1224002, server: tw2.elknode.top, port: 80, type: vmess, uuid: 1eded6fc-8b28-33df-a93f-6491de5f7a12, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: data.video.qiyi.com}}}
+  - {name: 🇨🇳 台湾_1224005, server: 104.29.64.24, port: 80, type: vmess, uuid: 3f421e27-5bf8-40c9-86cb-7b8c41dddea2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /lXvA0Vse/}}
   - {name: 🇨🇳 台湾_1224006, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}}
   - {name: 🇨🇳 台湾_1224007, server: http.download.yunzhongzhuan.com, port: 8080, type: vmess, uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: http.download.yunzhongzhuan.com}}}
   - {name: 🇨🇳 台湾_1224008, server: 0218tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: 0218tw02.fans8.xyz}}}
@@ -50,14 +48,12 @@ proxies:
   - {name: 🇨🇳 台湾_1224222, server: tt3.mybestjj.com, port: 443, type: vmess, uuid: b1dec44c-f262-4bcc-bb3d-7f91b5bda3ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1654431, headers: {Host: us1.mybestjj.com}}}
   - {name: 🇨🇳 台湾_1224223, server: tt1.mybestjj.com, port: 443, type: vmess, uuid: b1dec44c-f262-4bcc-bb3d-7f91b5bda3ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /1654431, headers: {Host: us1.mybestjj.com}}}
   - {name: 🇨🇳 台湾_1224229, server: http.download.yunzhongzhuan.com, port: 8080, type: vmess, uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.asuka.buzz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11, server: cdn.jsb2.xyz, port: 8443, type: vmess, uuid: 3fe57c61-6255-37d4-b34b-3695b656a2b1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: awsus2.jiasub.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15, server: 104.18.37.214, port: 2082, type: vmess, uuid: 36fa45db-2d4a-4295-a1fe-223836989878, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: PineApple.CLOUDFLARE.QUEST}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 17, server: 198.41.203.1, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: lg1.cfcdn2.xyz}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 20, server: sun.prxpro.cc, port: 80, type: vmess, uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sun.prxpro.cc}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 21, server: 198.41.212.122, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: fr1.trump2023.org}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29, server: xjp4h.mayaa.ml, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: xjp4h.mayaa.ml}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 31, server: us-04.legeth.tk, port: 80, type: vmess, uuid: e5250de0-1b91-4c00-9561-ccbe977298af, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: us-04.legeth.tk}}}
-  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39, server: www.digitalocean.com, port: 8080, type: vmess, uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.asuka.buzz}}}
+  - {name: 🇨🇳 台湾_1224230, server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.asuka.buzz}}}
+  - {name: 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3, server: 51.81.220.34, port: 80, type: vmess, uuid: 0842be25-d718-491a-bca8-5e9d080150e6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 5, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: lvryzenkvm1gb.sharecentre.online}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13, server: 104.18.37.214, port: 2082, type: vmess, uuid: 36fa45db-2d4a-4295-a1fe-223836989878, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: PineApple.CLOUDFLARE.QUEST}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 22, server: 198.41.203.1, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: lg1.cfcdn2.xyz}}}
+  - {name: 🇺🇸 github.com/freefq - 美国得克萨斯州 25, server: 34.145.145.76, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
   - {name: CA_AzadNet, server: 196.247.59.156, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: US_AzadNet, server: 43.206.67.76, port: 36306, type: trojan, password: 1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb, sni: sunmoon02.abzoones.xyz, skip-cert-verify: true}
   - {name: US_AzadNet(4), server: 150.230.201.192, port: 443, type: trojan, password: f42e1a2e-e650-44f4-8d17-bcb68663da18, sni: www.seetheworldjp.ga, skip-cert-verify: true}
@@ -74,28 +70,31 @@ proxies:
   - {name: 🇨🇦 加拿大_1224018, server: 02.montreal.can.anrun-ix.top, port: 13030, type: vmess, uuid: dd86a105-00c1-41ba-899c-c31aa74f4539, alterId: 0, cipher: auto, tls: false}
   - {name: 🇨🇦 加拿大_1224024, server: 35.182.165.120, port: 443, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v2ray}}
   - {name: 🇨🇦 加拿大_1224025, server: 71.19.248.161, port: 443, type: vmess, uuid: 3d173f0a-138b-4baf-9ec6-4848243e0a12, alterId: 64, cipher: auto, tls: false, network: ws, ws-opts: {path: /path/243535322906, headers: {Host: www.63657274.xyz}}}
+  - {name: 🇨🇦 加拿大_1224026, server: 02.toronto.can.anrun-ix.top, port: 13028, type: vmess, uuid: dd86a105-00c1-41ba-899c-c31aa74f4539, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇨🇦 加拿大_1224033, server: riop.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /Danhuang/Jiang, headers: {Host: riop.miaoge110.cf}}}
+  - {name: 🇨🇦 加拿大_1224038, server: 01.montreal.can.anrun-ix.top, port: 13029, type: vmess, uuid: dd86a105-00c1-41ba-899c-c31aa74f4539, alterId: 0, cipher: auto, tls: false}
+  - {name: 未知_1224052, server: 198.41.203.6, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 28, server: 165.227.175.88, port: 28164, type: vmess, uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 165.227.175.88}}}
+  - {name: "@SSRSUB-V18-付费推荐suo.yt/ssrsub", server: 5.255.112.158, port: 19182, type: vmess, uuid: 8f11ba8c-a72b-47df-a783-2490205ff10f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 5.255.112.158}}}
+  - {name: 🇮🇳 印度_1224048, server: 165.154.237.8, port: 80, type: vmess, uuid: d7a75318-3581-4f16-936c-671937ddd8ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 45, server: 68.183.83.94, port: 59477, type: vmess, uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 68.183.83.94}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 55, server: 198.244.232.39, port: 2096, type: vmess, uuid: df46384b-1ad5-40a6-812e-48d60fb80283, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 198.244.232.39}}}
-  - {name: 🇫🇷 github.com/freefq - 法国OVH 18, server: 51.77.158.169, port: 2096, type: vmess, uuid: c92fd902-b5d3-4208-bb48-630b1c7babea, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 未知_1224008, server: ads.phonepe.com, port: 80, type: vmess, uuid: 11288503-4f79-4659-a033-bf538ab14499, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /wafa/, headers: {Host: lg.iwafa.tk}}}
-  - {name: "🇬🇧 [Trojan] GB【付费推荐：goo.gs/vip】", server: content-provider4.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: shefelnak, skip-cert-verify: true}
+  - {name: "[VMess] UZ【付费推荐：goo.gs/vip】", server: 146.59.92.219, port: 2096, type: vmess, uuid: aca71b13-ec8a-466d-c28f-43516d3cf246, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 146.59.92.219}}}
   - {name: 未知_1224079, server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: 未知_1224047, server: hohm.microsoft.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124, server: workers.dev, port: 443, type: vmess, uuid: 7a70e0f7-170d-4ab0-82a0-c40554bfb320, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /111111.online, headers: {Host: workers.dev}}}
+  - {name: 未知_1224078, server: 141.101.114.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 88, server: 46.182.107.46, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: 46.182.107.46}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 138, server: 141.193.213.10, port: 443, type: vmess, uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 141.193.213.10}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 139, server: superstar.jp1.srayx.xyz, port: 80, type: vmess, uuid: 27c4d8dc-9676-4ac4-95bf-46a0e338f82e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /superstar, headers: {Host: superstar.jp1.srayx.xyz}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 140, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: free-russian01-cdn.xiaohouzi.club}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 141, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: 104.18.7.138}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 142, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f68, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: 46.182.107.37}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 143, server: 107.175.44.154, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-opts: {path: /27353486f3a1d4f/, headers: {Host: 107.175.44.154}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87, server: 38.68.134.85, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 85, server: 94.177.8.87, port: 39028, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 83, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/310910211916, headers: {Host: 96.43.91.60}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 80, server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-8221ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /footers, headers: {Host: 46.182.107.45}}}
-  - {name: 🇩🇪 github.com/freefq - 德国  12, server: 188.40.132.112, port: 80, type: vmess, uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /p3573l6m92h1ham3q23t, headers: {Host: news.microsoft.com}}}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133, server: 164.90.234.85, port: 18492, type: ss, cipher: chacha20-ietf-poly1305, password: fdRAl4scWDTg}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 79, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 73e0298a-5cb0-487e-81c9-2056b04c3864, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /zh-cn/download, headers: {Host: hk80.sanfen001.pics}}}
+  - {name: 🇸🇬 github.com/freefq - 澳大利亚新南威尔士州悉尼Linode数据中心 15, server: 172.105.172.172, port: 443, type: vmess, uuid: 15f9af40-73d6-4759-a5fc-b1d8a16ec6cf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 78, server: 45.64.22.22, port: 443, type: vmess, uuid: 4bd74c27-d23a-4083-be2a-5c2c139dadb4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /P3gjm, headers: {Host: 45.64.22.22}}}
+  - {name: 🇸🇪 github.com/freefq - 瑞典  20, server: 213.226.71.124, port: 22576, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 77, server: 129.150.44.64, port: 46075, type: vmess, uuid: da257e73-f02b-45ab-9916-7baf154c47a3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jhndsmlanj11223, headers: {Host: 129.150.44.64}}}
   - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 76, server: 104.19.110.34, port: 443, type: vmess, uuid: 4cdb016f-f14e-30b3-97d6-453c741a5c80, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: /y475, headers: {Host: 104.19.110.34}}}
   - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 88.210.37.46, port: 39028, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true}
 proxy-groups:
@@ -113,10 +112,8 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇸🇬 新加坡_1224018
-      - 🇯🇵 github.com/freefq - 日本  1
-      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 36
-      - 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 37
+      - 🇯🇵 github.com/freefq - 日本  8
+      - 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 18
       - HK_AzadNet
       - HK_AzadNet(1)
       - JP_AzadNet
@@ -125,8 +122,8 @@ proxy-groups:
       - TW_AzadNet
       - TW_AzadNet(1)
       - 🇯🇵 @SSRSUB-日本V05-付费推荐dlj.tf/ssrsub
-      - 🇨🇳 台湾_1224001
       - 🇨🇳 台湾_1224002
+      - 🇨🇳 台湾_1224005
       - 🇨🇳 台湾_1224006
       - 🇨🇳 台湾_1224007
       - 🇨🇳 台湾_1224008
@@ -158,14 +155,12 @@ proxy-groups:
       - 🇨🇳 台湾_1224222
       - 🇨🇳 台湾_1224223
       - 🇨🇳 台湾_1224229
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - 🇨🇳 台湾_1224230
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 5
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇸 github.com/freefq - 美国得克萨斯州 25
       - CA_AzadNet
       - US_AzadNet
       - US_AzadNet(4)
@@ -182,28 +177,31 @@ proxy-groups:
       - 🇨🇦 加拿大_1224018
       - 🇨🇦 加拿大_1224024
       - 🇨🇦 加拿大_1224025
+      - 🇨🇦 加拿大_1224026
+      - 🇨🇦 加拿大_1224033
+      - 🇨🇦 加拿大_1224038
+      - 未知_1224052
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 28
+      - "@SSRSUB-V18-付费推荐suo.yt/ssrsub"
+      - 🇮🇳 印度_1224048
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 45
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 55
-      - 🇫🇷 github.com/freefq - 法国OVH 18
-      - 未知_1224008
-      - 🇬🇧 [Trojan] GB【付费推荐：goo.gs/vip】
+      - "[VMess] UZ【付费推荐：goo.gs/vip】"
       - 未知_1224079
-      - 未知_1224047
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
+      - 未知_1224078
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 88
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 138
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 139
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 140
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 141
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 142
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 143
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 85
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 83
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 80
-      - 🇩🇪 github.com/freefq - 德国  12
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 79
+      - 🇸🇬 github.com/freefq - 澳大利亚新南威尔士州悉尼Linode数据中心 15
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 78
+      - 🇸🇪 github.com/freefq - 瑞典  20
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 77
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 76
       - 🇷🇺 github.com/freefq - 俄罗斯  1
   - name: 🏳️‍🌈 国家选择
@@ -256,10 +254,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡_1224018
-      - 🇯🇵 github.com/freefq - 日本  1
-      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 36
-      - 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 37
+      - 🇯🇵 github.com/freefq - 日本  8
+      - 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 18
       - HK_AzadNet
       - HK_AzadNet(1)
       - JP_AzadNet
@@ -268,8 +264,8 @@ proxy-groups:
       - TW_AzadNet
       - TW_AzadNet(1)
       - 🇯🇵 @SSRSUB-日本V05-付费推荐dlj.tf/ssrsub
-      - 🇨🇳 台湾_1224001
       - 🇨🇳 台湾_1224002
+      - 🇨🇳 台湾_1224005
       - 🇨🇳 台湾_1224006
       - 🇨🇳 台湾_1224007
       - 🇨🇳 台湾_1224008
@@ -301,14 +297,12 @@ proxy-groups:
       - 🇨🇳 台湾_1224222
       - 🇨🇳 台湾_1224223
       - 🇨🇳 台湾_1224229
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - 🇨🇳 台湾_1224230
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 5
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇸 github.com/freefq - 美国得克萨斯州 25
       - CA_AzadNet
       - US_AzadNet
       - US_AzadNet(4)
@@ -325,28 +319,31 @@ proxy-groups:
       - 🇨🇦 加拿大_1224018
       - 🇨🇦 加拿大_1224024
       - 🇨🇦 加拿大_1224025
+      - 🇨🇦 加拿大_1224026
+      - 🇨🇦 加拿大_1224033
+      - 🇨🇦 加拿大_1224038
+      - 未知_1224052
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 28
+      - "@SSRSUB-V18-付费推荐suo.yt/ssrsub"
+      - 🇮🇳 印度_1224048
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 45
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 55
-      - 🇫🇷 github.com/freefq - 法国OVH 18
-      - 未知_1224008
-      - 🇬🇧 [Trojan] GB【付费推荐：goo.gs/vip】
+      - "[VMess] UZ【付费推荐：goo.gs/vip】"
       - 未知_1224079
-      - 未知_1224047
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
+      - 未知_1224078
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 88
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 138
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 139
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 140
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 141
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 142
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 143
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 85
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 83
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 80
-      - 🇩🇪 github.com/freefq - 德国  12
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 79
+      - 🇸🇬 github.com/freefq - 澳大利亚新南威尔士州悉尼Linode数据中心 15
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 78
+      - 🇸🇪 github.com/freefq - 瑞典  20
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 77
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 76
       - 🇷🇺 github.com/freefq - 俄罗斯  1
   - name: ⚡ 故障转移
@@ -355,10 +352,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡_1224018
-      - 🇯🇵 github.com/freefq - 日本  1
-      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 36
-      - 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 37
+      - 🇯🇵 github.com/freefq - 日本  8
+      - 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 18
       - HK_AzadNet
       - HK_AzadNet(1)
       - JP_AzadNet
@@ -367,8 +362,8 @@ proxy-groups:
       - TW_AzadNet
       - TW_AzadNet(1)
       - 🇯🇵 @SSRSUB-日本V05-付费推荐dlj.tf/ssrsub
-      - 🇨🇳 台湾_1224001
       - 🇨🇳 台湾_1224002
+      - 🇨🇳 台湾_1224005
       - 🇨🇳 台湾_1224006
       - 🇨🇳 台湾_1224007
       - 🇨🇳 台湾_1224008
@@ -400,14 +395,12 @@ proxy-groups:
       - 🇨🇳 台湾_1224222
       - 🇨🇳 台湾_1224223
       - 🇨🇳 台湾_1224229
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - 🇨🇳 台湾_1224230
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 5
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇸 github.com/freefq - 美国得克萨斯州 25
       - CA_AzadNet
       - US_AzadNet
       - US_AzadNet(4)
@@ -424,28 +417,31 @@ proxy-groups:
       - 🇨🇦 加拿大_1224018
       - 🇨🇦 加拿大_1224024
       - 🇨🇦 加拿大_1224025
+      - 🇨🇦 加拿大_1224026
+      - 🇨🇦 加拿大_1224033
+      - 🇨🇦 加拿大_1224038
+      - 未知_1224052
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 28
+      - "@SSRSUB-V18-付费推荐suo.yt/ssrsub"
+      - 🇮🇳 印度_1224048
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 45
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 55
-      - 🇫🇷 github.com/freefq - 法国OVH 18
-      - 未知_1224008
-      - 🇬🇧 [Trojan] GB【付费推荐：goo.gs/vip】
+      - "[VMess] UZ【付费推荐：goo.gs/vip】"
       - 未知_1224079
-      - 未知_1224047
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
+      - 未知_1224078
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 88
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 138
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 139
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 140
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 141
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 142
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 143
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 85
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 83
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 80
-      - 🇩🇪 github.com/freefq - 德国  12
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 79
+      - 🇸🇬 github.com/freefq - 澳大利亚新南威尔士州悉尼Linode数据中心 15
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 78
+      - 🇸🇪 github.com/freefq - 瑞典  20
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 77
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 76
       - 🇷🇺 github.com/freefq - 俄罗斯  1
   - name: 🌎 北美地区
@@ -454,14 +450,11 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 5
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇸 github.com/freefq - 美国得克萨斯州 25
       - CA_AzadNet
       - US_AzadNet
       - US_AzadNet(4)
@@ -478,16 +471,17 @@ proxy-groups:
       - 🇨🇦 加拿大_1224018
       - 🇨🇦 加拿大_1224024
       - 🇨🇦 加拿大_1224025
+      - 🇨🇦 加拿大_1224026
+      - 🇨🇦 加拿大_1224033
+      - 🇨🇦 加拿大_1224038
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 新加坡_1224018
-      - 🇯🇵 github.com/freefq - 日本  1
-      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 36
-      - 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 37
+      - 🇯🇵 github.com/freefq - 日本  8
+      - 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 18
       - HK_AzadNet
       - HK_AzadNet(1)
       - JP_AzadNet
@@ -496,8 +490,8 @@ proxy-groups:
       - TW_AzadNet
       - TW_AzadNet(1)
       - 🇯🇵 @SSRSUB-日本V05-付费推荐dlj.tf/ssrsub
-      - 🇨🇳 台湾_1224001
       - 🇨🇳 台湾_1224002
+      - 🇨🇳 台湾_1224005
       - 🇨🇳 台湾_1224006
       - 🇨🇳 台湾_1224007
       - 🇨🇳 台湾_1224008
@@ -529,34 +523,35 @@ proxy-groups:
       - 🇨🇳 台湾_1224222
       - 🇨🇳 台湾_1224223
       - 🇨🇳 台湾_1224229
+      - 🇨🇳 台湾_1224230
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 未知_1224052
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 28
+      - "@SSRSUB-V18-付费推荐suo.yt/ssrsub"
+      - 🇮🇳 印度_1224048
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 45
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 55
-      - 🇫🇷 github.com/freefq - 法国OVH 18
-      - 未知_1224008
-      - 🇬🇧 [Trojan] GB【付费推荐：goo.gs/vip】
+      - "[VMess] UZ【付费推荐：goo.gs/vip】"
       - 未知_1224079
-      - 未知_1224047
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 124
+      - 未知_1224078
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 88
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 138
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 139
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 140
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 141
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 142
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 143
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 87
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 85
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 83
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 80
-      - 🇩🇪 github.com/freefq - 德国  12
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 133
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 79
+      - 🇸🇬 github.com/freefq - 澳大利亚新南威尔士州悉尼Linode数据中心 15
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 78
+      - 🇸🇪 github.com/freefq - 瑞典  20
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 77
       - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 76
       - 🇷🇺 github.com/freefq - 俄罗斯  1
   - name: 美国
@@ -565,14 +560,11 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 17
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 20
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 21
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 29
-      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 31
-      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - 🇺🇸 github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 5
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 22
+      - 🇺🇸 github.com/freefq - 美国得克萨斯州 25
       - US_AzadNet
       - US_AzadNet(4)
       - US_AzadNet(5)
@@ -596,16 +588,14 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 新加坡_1224018
-      - 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 37
+      - 🇸🇬 github.com/freefq - 新加坡DigitalOcean数据中心 18
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇯🇵 github.com/freefq - 日本  1
-      - 🇯🇵 github.com/freefq - 日本东京都品川区Linode数据中心 36
+      - 🇯🇵 github.com/freefq - 日本  8
       - JP_AzadNet
       - JP_AzadNet(1)
       - JP_AzadNet(2)
@@ -618,8 +608,8 @@ proxy-groups:
     proxies:
       - TW_AzadNet
       - TW_AzadNet(1)
-      - 🇨🇳 台湾_1224001
       - 🇨🇳 台湾_1224002
+      - 🇨🇳 台湾_1224005
       - 🇨🇳 台湾_1224006
       - 🇨🇳 台湾_1224007
       - 🇨🇳 台湾_1224008
@@ -651,6 +641,7 @@ proxy-groups:
       - 🇨🇳 台湾_1224222
       - 🇨🇳 台湾_1224223
       - 🇨🇳 台湾_1224229
+      - 🇨🇳 台湾_1224230
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
