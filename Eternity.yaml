@@ -5,24 +5,25 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: JP_71, server: 3.112.193.151, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡_1230438, server: 45.32.122.161, port: 80, type: vmess, uuid: 9077c89a-3e1b-4d15-b7f2-38c4b6acf6bf, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: HK_AzadNet(20), server: 8.218.140.111, port: 34193, type: vmess, uuid: 544bf832-7df2-4ce1-aafc-9258a28b7cfb, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hk}}
-  - {name: SG_135, server: 54.254.199.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇭🇰 香港(油管破解资源君) 3, server: 18.163.116.113, port: 26346, type: vmess, uuid: 30297ab2-ceef-48ae-838f-9ca4bf625da8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 18.163.116.113}}}
-  - {name: 🇸🇬 新加坡(TG频道@kxswa) 2, server: huclouds.ml, port: 5505, type: vmess, uuid: 69801534-3870-4d14-9d07-6f65da593da4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: huclouds.ml}}}
-  - {name: 🇯🇵 日本_34, server: tk5.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡_1230392, server: gmlovebaipiao.tech, port: 11451, type: vmess, uuid: d57d3206-d398-449e-b637-19471a3943e4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /ws, headers: {Host: gmlovebaipiao.tech}}}
-  - {name: HK_AzadNet(35), server: 45.207.13.215, port: 443, type: trojan, password: hhvcwd, sni: hn.playstone.info, skip-cert-verify: true}
-  - {name: HK_AzadNet(5), server: 148.66.56.99, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 新加坡(油管破解资源君) 4, server: 162.159.135.42, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Falling42gcssgnode, headers: {Host: gcssg.sylu.cyou}}}
+  - {name: 🇭🇰 香港(油管破解资源君) 2, server: gcsshkkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Falling42gcsshkkknode, headers: {Host: gcsshkkk.sylu.cyou}}}
+  - {name: 🇯🇵 日本(油管破解资源君), server: 85.208.108.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: SG_128, server: 54.169.211.238, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: KR_AzadNet, server: 43.201.31.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: JP_AzadNet(12), server: 43.206.224.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 韩国_1230064, server: 103.138.80.193, port: 14485, type: vmess, uuid: b687b974-701b-4a7b-e7a4-c7f8b5102723, alterId: 0, cipher: auto, tls: false}
+  - {name: HK_AzadNet(5), server: 148.66.56.99, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: JP_AzadNet(19), server: 138.2.45.89, port: 44301, type: trojan, password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702, sni: osav101.jd0001.top, skip-cert-verify: true}
+  - {name: 🇯🇵 @SSRSUB-日本V06-付费推荐dlj.tf/ssrsub 2, server: cf.515188.xyz, port: 8080, type: vmess, uuid: 695f885f-144b-4a6b-998a-885d9775d756, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.asuka.buzz}}}
+  - {name: HK_AzadNet(35), server: 45.207.13.215, port: 443, type: trojan, password: hhvcwd, sni: hn.playstone.info, skip-cert-verify: true}
   - {name: Pool_🇸🇬SG_125, server: 217.197.161.136, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool_🇸🇬SG_126, server: 217.197.161.138, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: JP_AzadNet(18), server: 138.2.8.38, port: 44302, type: trojan, password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702, sni: tyov001.jd0001.top, skip-cert-verify: true}
+  - {name: "🇨🇳 [VMess] 🇨🇳 TW【付费推荐：goo.gs/vip】 3", server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.asuka.buzz}}}
+  - {name: "🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8", server: petal.ga, port: 443, type: vmess, uuid: b744f5cc-eab2-d2cd-f477-76646d17987f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /petalvws, headers: {Host: petal.ga}}}
+  - {name: HK_AzadNet, server: 20.205.35.26, port: 443, type: trojan, password: 500b1c7c-caf0-481c-8c7d-3eeb84e70ad4, sni: hinet.mjt001.com, skip-cert-verify: true}
   - {name: HK_AzadNet(2), server: 20.205.4.127, port: 443, type: trojan, password: 136b600c-6e5c-4f8b-b5f7-5b3170587640, sni: glc.windowsupdate1.com, skip-cert-verify: true}
+  - {name: HK_AzadNet(4), server: 37.123.196.250, port: 28892, type: trojan, password: shenmegui, sni: hk.swiftfalcon.app, skip-cert-verify: true}
   - {name: HK_AzadNet(18), server: 8.218.59.157, port: 45981, type: vmess, uuid: dae5ab3b-a026-42ea-b1a8-f5f4827b3341, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: HK_AzadNet(19), server: 8.218.94.182, port: 24520, type: vmess, uuid: 3ae2a476-6929-4544-8037-1c79f0dfa701, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: HK_AzadNet, server: 20.205.35.26, port: 443, type: trojan, password: 500b1c7c-caf0-481c-8c7d-3eeb84e70ad4, sni: hinet.mjt001.com, skip-cert-verify: true}
   - {name: HK_AzadNet(22), server: 167.179.32.53, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess}}
   - {name: HK_AzadNet(23), server: 8.218.81.81, port: 37003, type: vmess, uuid: 61ef9730-05d4-435d-bdaf-a10c12c7e5c5, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: HK_AzadNet(24), server: 47.242.44.222, port: 63376, type: vmess, uuid: 5343352c-ccc5-43f9-b08a-7425e5cc73dd, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
@@ -34,68 +35,67 @@ proxies:
   - {name: HK_AzadNet(30), server: 47.242.17.241, port: 44207, type: vmess, uuid: 77c6c520-2d37-495a-a954-c8d056e89053, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: HK_AzadNet(31), server: 8.218.105.233, port: 46148, type: vmess, uuid: 5072f86c-2a3f-430e-861f-bfd965da9b79, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: HK_AzadNet(32), server: 8.218.72.12, port: 64862, type: vmess, uuid: b9adc9e5-4821-4c9c-ac05-43b3a8fad445, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: HK_AzadNet(33), server: 37.123.196.202, port: 28892, type: trojan, password: shenmegui, sni: hk.swiftfalcon.app, skip-cert-verify: true}
   - {name: HK_AzadNet(34), server: 8.210.3.228, port: 44302, type: trojan, password: 6abfad5a-24be-3657-85da-ceac782b7e19, sni: hkv102.jd0001.top, skip-cert-verify: true}
-  - {name: "🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8", server: petal.ga, port: 443, type: vmess, uuid: b744f5cc-eab2-d2cd-f477-76646d17987f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /petalvws, headers: {Host: petal.ga}}}
   - {name: JP_AzadNet, server: 150.230.201.192, port: 443, type: trojan, password: f42e1a2e-e650-44f4-8d17-bcb68663da18, sni: www.seetheworldjp.ga, skip-cert-verify: true}
   - {name: JP_AzadNet(1), server: 132.226.5.246, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: true}
   - {name: JP_AzadNet(3), server: 49.212.203.7, port: 443, type: trojan, password: 18844%2540zxcvbn, sni: os-tr-2.cats22.net, skip-cert-verify: true}
   - {name: JP_AzadNet(5), server: 49.212.182.164, port: 443, type: trojan, password: 18844%2540zxcvbn, sni: os-tr-1.cats22.net, skip-cert-verify: true}
   - {name: JP_AzadNet(6), server: 43.207.1.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: JP_AzadNet(8), server: 103.201.131.84, port: 8460, type: trojan, password: shenmegui, sni: jp.swiftfalcon.app, skip-cert-verify: true}
-  - {name: JP_AzadNet(12), server: 43.206.224.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇯🇵 日本(油管破解资源君) 3, server: ap-northeast-1.openssl3.com, port: 443, type: trojan, password: tune7jerky7HAYRICK, skip-cert-verify: true}
+  - {name: JP_AzadNet(13), server: 49.212.204.123, port: 443, type: trojan, password: 18844%40zxcvbn, sni: os-tr-5.cats22.net, skip-cert-verify: true}
   - {name: JP_AzadNet(14), server: 18.177.58.124, port: 50064, type: trojan, password: fdb990b5-3a9f-401b-b374-dc80b926ec9f, sni: jp-tk-31.fuckjdieng.uk, skip-cert-verify: true}
-  - {name: "🇨🇳 [VMess] 🇨🇳 TW【付费推荐：goo.gs/vip】 3", server: http.download.yunzhongzhuan.com, port: 80, type: vmess, uuid: 59502b4c-6a17-4f65-a1cc-682f0179cec1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.asuka.buzz}}}
-  - {name: JP_AzadNet(19), server: 138.2.45.89, port: 44301, type: trojan, password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702, sni: osav101.jd0001.top, skip-cert-verify: true}
-  - {name: KR_AzadNet, server: 43.201.31.131, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: JP_AzadNet(18), server: 138.2.8.38, port: 44302, type: trojan, password: 6d64570c-81d4-30fa-b2e2-dce73e1a2702, sni: tyov001.jd0001.top, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡(TG频道@kxswa) 2, server: huclouds.ml, port: 5505, type: vmess, uuid: 69801534-3870-4d14-9d07-6f65da593da4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: huclouds.ml}}}
+  - {name: 🇰🇷 _KR_韩国_2, server: 43.201.63.83, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: KR_AzadNet(2), server: 150.230.249.15, port: 46842, type: vmess, uuid: 4530b5ee-ced4-4e64-9285-1867fc5df7f8, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇺🇸 美国(油管破解资源君) 23, server: cacerts.digicert.com, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Falling42gcssgnode, headers: {Host: gcssg.sylu.cyou}}}
   - {name: "🇺🇸 [SSR] 🇺🇲 US【付费推荐：goo.gs/vip】", server: 173.82.186.25, port: 50005, type: ssr, cipher: dummy, password: IOSwgAYTREask(&1UHYTiq'&%12afSSR, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 美国(油管破解资源君) 40, server: 72.44.73.78, port: 8080, type: vmess, uuid: 77b37bd9-1aa6-4b67-935c-f46813b3597f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /XrayR, headers: {Host: dm.toutiao.com}}}
-  - {name: 🇺🇸 美国(油管破解资源君) 39, server: xjp4h.mayaa.ml, port: 443, type: vmess, uuid: 82d5ea73-8002-4319-cd3c-29d1560bd290, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dsadsa1dsadsa33434, headers: {Host: xjp4h.mayaa.ml}}}
-  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21", server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Falling42gcsshknode, headers: {Host: gcsshk.sylu.cyou}}}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇫🇷FR_237, server: news.microsoft.com, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: 🇺🇸 美国(油管破解资源君2.0) 5, server: 190.93.245.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
-  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 23", server: cf-dx-dns.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: opc-jp.sharecentre.online}}}
-  - {name: 🇺🇸 美国_1230281, server: 104.25.250.198, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: US_152, server: 38.68.134.196, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 58", server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: 🇺🇸 美国_1230280, server: 104.25.241.11, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: US_104.149.139.189_12172022afee-514s%, server: 104.149.139.189, port: 10002, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68", server: 104.19.48.92, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk.sharecentre.online}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 28", server: www.dynadot.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: kz.cloudflare.quest}}}
   - {name: 🇺🇸 美国(油管破解资源君) 44, server: gcssg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Falling42gcssgnode, headers: {Host: gcssg.sylu.cyou}}}
-  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 34", server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: uk2.v2rayserv.com}}}
-  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 54", server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21", server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Falling42gcsshknode, headers: {Host: gcsshk.sylu.cyou}}}
+  - {name: US_AzadNet(21), server: 34.201.34.116, port: 54043, type: trojan, password: 2a9ba60d-10ce-4f79-97e7-817334456195, sni: tr9.tgcunzhang.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国(油管破解资源君) 40, server: 72.44.73.78, port: 8080, type: vmess, uuid: 77b37bd9-1aa6-4b67-935c-f46813b3597f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /XrayR, headers: {Host: dm.toutiao.com}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 18", server: dnss.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Falling42awsjpyanode, headers: {Host: awsjpya.sylu.cyou}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: uk2.v2rayserv.com}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68", server: 104.19.48.92, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk.sharecentre.online}}}
   - {name: 🇺🇸 美国(油管破解资源君) 20, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: uk2.v2rayserv.com}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 43", server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 40", server: cacerts.digicert.com, port: 2096, type: vmess, uuid: 2ae9835e-381b-4228-95df-bce39ee1a4eb, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ezN9pvil/, headers: {Host: v2ray.wefuckgfw.tk}}}
   - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 57", server: hohm.microsoft.com, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk.sharecentre.online}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 51", server: 141.101.114.17, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: 🇺🇸 美国(油管破解资源君2.0), server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lvryzenkvm1gb.sharecentre.online}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 50", server: 172.64.154.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
   - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 47", server: 141.101.115.160, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
-  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 77", server: 172.67.174.51, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /8cda48b3, headers: {Host: us-171-78.shoptunnel.live}}}
-  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 75", server: 172.64.157.26, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /8cda48b3, headers: {Host: us-171-78.shoptunnel.live}}}
-  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 74", server: 172.64.156.232, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /8cda48b3, headers: {Host: us-171-78.shoptunnel.live}}}
-  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 53", server: 172.67.189.142, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /8cda48b3, headers: {Host: us-171-78.shoptunnel.live}}}
-  - {name: "🇵🇱 [VMess] PL【付费推荐：goo.gs/vip】", server: gcspl.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Falling42gcsplnode, headers: {Host: gcspl.sylu.cyou}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 55", server: 172.64.153.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 52", server: 141.101.115.140, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}}
+  - {name: 🇺🇸 美国(油管破解资源君) 15, server: 172.67.190.145, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /8cda48b3, headers: {Host: us-171-78.shoptunnel.live}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 73", server: 172.67.115.249, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /8cda48b3, headers: {Host: us-171-78.shoptunnel.live}}}
+  - {name: "🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 61", server: 172.67.217.89, port: 8443, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /8cda48b3, headers: {Host: us-171-78.shoptunnel.live}}}
+  - {name: AU_03, server: 43.207.68.221, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇪🇺 欧洲(油管破解资源君) 38, server: 190.93.244.4, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
+  - {name: SSR, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: 43.207.88.83443, server: 43.207.88.83, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇪🇺 欧洲(油管破解资源君) 64, server: 141.101.114.134, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 4, server: 190.93.246.195, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}}
+  - {name: 🇷🇺 俄罗斯(油管破解资源君) 5, server: 203.30.188.190, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}}
+  - {name: 未知_1230649, server: 104.17.187.82, port: 2082, type: vmess, uuid: a427c1b6-c03c-4b39-9f72-c407bef82250, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: VN.CLOUDFLARE.QUEST}}}
+  - {name: 未知_1230647, server: 162.159.142.239, port: 2082, type: vmess, uuid: a427c1b6-c03c-4b39-9f72-c407bef82250, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: VN.CLOUDFLARE.QUEST}}}
   - {name: 未知_1230650, server: 104.18.101.251, port: 2082, type: vmess, uuid: a427c1b6-c03c-4b39-9f72-c407bef82250, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: VN.CLOUDFLARE.QUEST}}}
-  - {name: 🇷🇺 俄罗斯联邦_1230033, server: RU-153-16.shoptunnel.live, port: 31990, type: vmess, uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b, alterId: 0, cipher: auto, tls: false}
-  - {name: FR_AzadNet, server: 5.135.235.160, port: 443, type: trojan, password: a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671, sni: upload.soft98.download, skip-cert-verify: true}
-  - {name: Pool_🇳🇱NL_109, server: 85.208.108.59, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 103, server: 45.32.117.49, port: 80, type: vmess, uuid: fad9cea7-27e6-4a66-d7a6-b1718c7bdd40, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: 45.32.117.49}}}
+  - {name: 🇪🇺 欧洲(油管破解资源君2.0) 5, server: 190.93.245.3, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}}
+  - {name: GB_47, server: 109.169.72.249, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: DE_AzadNet(9), server: 138.201.115.234, port: 62345, type: vmess, uuid: 7b525127-a5c2-4b63-a9e9-e833c2cc509a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: "[VMess] CY【付费推荐：goo.gs/vip】 2", server: CSGO.COM, port: 2086, type: vmess, uuid: 0805caaf-bd20-45fd-c5f7-ef59756b4b6b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: ro.cloudflare.quest}}}
+  - {name: mianfeifq 267, server: 88.210.37.46, port: 30086, type: trojan, password: 2F094845-E2BD-EBF7-DEB7-995992436FAF, sni: node.napsternetv.com, skip-cert-verify: true}
   - {name: 🇫🇮 芬兰_1230001, server: 135.181.235.21, port: 12951, type: vmess, uuid: 18827895-b647-4570-81e2-de3bd795fa04, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇷🇺 俄罗斯(油管破解资源君) 3, server: surongwei.eu.org, port: 443, type: vmess, uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /reffs7y26g0ua, headers: {Host: surongwei.eu.org}}}
-  - {name: GetAFreeNode-Frankfurt, server: 89.185.85.162, port: 30086, type: trojan, password: 2F094845-E2BD-EBF7-DEB7-995992436FAF, sni: node.napsternetv.com, skip-cert-verify: true}
-  - {name: 未知_1230601, server: 104.20.58.122, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: 未知_1230615, server: 104.17.22.171, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: 未知_1230620, server: 104.16.194.196, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: 未知_1230608, server: 104.17.103.219, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: 未知_1230609, server: 162.159.129.119, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_89, server: ak1354.free.www.outline.network, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: "| 3.54Mb", server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: false}
+  - {name: "| 4.28Mb", server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, skip-cert-verify: false}
+  - {name: "🇵🇱 [VMess] PL【付费推荐：goo.gs/vip】", server: gcspl.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /Falling42gcsplnode, headers: {Host: gcspl.sylu.cyou}}}
+  - {name: RU_AzadNet(1), server: 91.193.181.192, port: 8090, type: vmess, uuid: 08bc30e1-be39-4eb4-e887-e6579be15a45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
   - {name: Pool_🇳🇱NL_91, server: 85.208.108.22, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 未知_1230612, server: 104.19.55.152, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: 未知_1230611, server: 104.17.208.179, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: 未知_1230604, server: 104.18.252.160, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}}
-  - {name: 🇪🇺 欧洲(油管破解资源君) 63, server: 141.101.115.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}}
-  - {name: 🇪🇺 欧洲(油管破解资源君) 58, server: 198.41.212.155, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}}
-  - {name: mianfeifq 254, server: tk3.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: true}
-  - {name: 未知_1230018, server: speed.cloudflare.com, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vmess, headers: {Host: v2.chigua.tk}}}
-  - {name: 🇫🇷 法国_1230035, server: 51.195.217.20, port: 80, type: vmess, uuid: a6ee3c75-f83e-48a0-9af0-ac963db12112, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sshocean}}
+  - {name: 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_103, server: ak1518.free.www.outline.network, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: NL_96, server: 85.208.108.18, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -111,24 +111,25 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - JP_71
-      - 🇸🇬 新加坡_1230438
-      - HK_AzadNet(20)
-      - SG_135
-      - 🇭🇰 香港(油管破解资源君) 3
-      - 🇸🇬 新加坡(TG频道@kxswa) 2
-      - 🇯🇵 日本_34
-      - 🇸🇬 新加坡_1230392
-      - HK_AzadNet(35)
-      - HK_AzadNet(5)
+      - 🇸🇬 新加坡(油管破解资源君) 4
+      - 🇭🇰 香港(油管破解资源君) 2
+      - 🇯🇵 日本(油管破解资源君)
+      - SG_128
+      - KR_AzadNet
+      - JP_AzadNet(12)
       - 🇰🇷 韩国_1230064
+      - HK_AzadNet(5)
+      - JP_AzadNet(19)
+      - 🇯🇵 @SSRSUB-日本V06-付费推荐dlj.tf/ssrsub 2
+      - HK_AzadNet(35)
       - Pool_🇸🇬SG_125
-      - Pool_🇸🇬SG_126
-      - JP_AzadNet(18)
+      - 🇨🇳 [VMess] 🇨🇳 TW【付费推荐：goo.gs/vip】 3
+      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8
+      - HK_AzadNet
       - HK_AzadNet(2)
+      - HK_AzadNet(4)
       - HK_AzadNet(18)
       - HK_AzadNet(19)
-      - HK_AzadNet
       - HK_AzadNet(22)
       - HK_AzadNet(23)
       - HK_AzadNet(24)
@@ -140,68 +141,67 @@ proxy-groups:
       - HK_AzadNet(30)
       - HK_AzadNet(31)
       - HK_AzadNet(32)
-      - HK_AzadNet(33)
       - HK_AzadNet(34)
-      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8
       - JP_AzadNet
       - JP_AzadNet(1)
       - JP_AzadNet(3)
       - JP_AzadNet(5)
       - JP_AzadNet(6)
       - JP_AzadNet(8)
-      - JP_AzadNet(12)
+      - 🇯🇵 日本(油管破解资源君) 3
+      - JP_AzadNet(13)
       - JP_AzadNet(14)
-      - 🇨🇳 [VMess] 🇨🇳 TW【付费推荐：goo.gs/vip】 3
-      - JP_AzadNet(19)
-      - KR_AzadNet
+      - JP_AzadNet(18)
+      - 🇸🇬 新加坡(TG频道@kxswa) 2
+      - 🇰🇷 _KR_韩国_2
       - KR_AzadNet(2)
+      - 🇺🇸 美国(油管破解资源君) 23
       - 🇺🇸 [SSR] 🇺🇲 US【付费推荐：goo.gs/vip】
-      - 🇺🇸 美国(油管破解资源君) 40
-      - 🇺🇸 美国(油管破解资源君) 39
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_237
-      - 🇺🇸 美国(油管破解资源君2.0) 5
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 23
-      - 🇺🇸 美国_1230281
-      - US_152
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 58
-      - 🇺🇸 美国_1230280
-      - US_104.149.139.189_12172022afee-514s%
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 28
       - 🇺🇸 美国(油管破解资源君) 44
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 34
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 54
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21
+      - US_AzadNet(21)
+      - 🇺🇸 美国(油管破解资源君) 40
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68
       - 🇺🇸 美国(油管破解资源君) 20
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 43
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 40
       - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 57
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 51
+      - 🇺🇸 美国(油管破解资源君2.0)
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 50
       - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 47
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 77
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 75
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 74
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 53
-      - 🇵🇱 [VMess] PL【付费推荐：goo.gs/vip】
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 55
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 52
+      - 🇺🇸 美国(油管破解资源君) 15
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 73
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 61
+      - AU_03
+      - 🇪🇺 欧洲(油管破解资源君) 38
+      - SSR
+      - 43.207.88.83443
+      - 🇪🇺 欧洲(油管破解资源君) 64
+      - 🇪🇺 欧洲(油管破解资源君2.0) 4
+      - 🇷🇺 俄罗斯(油管破解资源君) 5
+      - 未知_1230649
+      - 未知_1230647
       - 未知_1230650
-      - 🇷🇺 俄罗斯联邦_1230033
-      - FR_AzadNet
-      - Pool_🇳🇱NL_109
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 103
+      - 🇪🇺 欧洲(油管破解资源君2.0) 5
+      - GB_47
+      - DE_AzadNet(9)
       - "[VMess] CY【付费推荐：goo.gs/vip】 2"
+      - mianfeifq 267
       - 🇫🇮 芬兰_1230001
-      - 🇷🇺 俄罗斯(油管破解资源君) 3
-      - GetAFreeNode-Frankfurt
-      - 未知_1230601
-      - 未知_1230615
-      - 未知_1230620
-      - 未知_1230608
-      - 未知_1230609
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_89
+      - "| 3.54Mb"
+      - "| 4.28Mb"
+      - 🇵🇱 [VMess] PL【付费推荐：goo.gs/vip】
+      - RU_AzadNet(1)
       - Pool_🇳🇱NL_91
-      - 未知_1230612
-      - 未知_1230611
-      - 未知_1230604
-      - 🇪🇺 欧洲(油管破解资源君) 63
-      - 🇪🇺 欧洲(油管破解资源君) 58
-      - mianfeifq 254
-      - 未知_1230018
-      - 🇫🇷 法国_1230035
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_103
+      - NL_96
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -252,24 +252,25 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - JP_71
-      - 🇸🇬 新加坡_1230438
-      - HK_AzadNet(20)
-      - SG_135
-      - 🇭🇰 香港(油管破解资源君) 3
-      - 🇸🇬 新加坡(TG频道@kxswa) 2
-      - 🇯🇵 日本_34
-      - 🇸🇬 新加坡_1230392
-      - HK_AzadNet(35)
-      - HK_AzadNet(5)
+      - 🇸🇬 新加坡(油管破解资源君) 4
+      - 🇭🇰 香港(油管破解资源君) 2
+      - 🇯🇵 日本(油管破解资源君)
+      - SG_128
+      - KR_AzadNet
+      - JP_AzadNet(12)
       - 🇰🇷 韩国_1230064
+      - HK_AzadNet(5)
+      - JP_AzadNet(19)
+      - 🇯🇵 @SSRSUB-日本V06-付费推荐dlj.tf/ssrsub 2
+      - HK_AzadNet(35)
       - Pool_🇸🇬SG_125
-      - Pool_🇸🇬SG_126
-      - JP_AzadNet(18)
+      - 🇨🇳 [VMess] 🇨🇳 TW【付费推荐：goo.gs/vip】 3
+      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8
+      - HK_AzadNet
       - HK_AzadNet(2)
+      - HK_AzadNet(4)
       - HK_AzadNet(18)
       - HK_AzadNet(19)
-      - HK_AzadNet
       - HK_AzadNet(22)
       - HK_AzadNet(23)
       - HK_AzadNet(24)
@@ -281,92 +282,92 @@ proxy-groups:
       - HK_AzadNet(30)
       - HK_AzadNet(31)
       - HK_AzadNet(32)
-      - HK_AzadNet(33)
       - HK_AzadNet(34)
-      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8
       - JP_AzadNet
       - JP_AzadNet(1)
       - JP_AzadNet(3)
       - JP_AzadNet(5)
       - JP_AzadNet(6)
       - JP_AzadNet(8)
-      - JP_AzadNet(12)
+      - 🇯🇵 日本(油管破解资源君) 3
+      - JP_AzadNet(13)
       - JP_AzadNet(14)
-      - 🇨🇳 [VMess] 🇨🇳 TW【付费推荐：goo.gs/vip】 3
-      - JP_AzadNet(19)
-      - KR_AzadNet
+      - JP_AzadNet(18)
+      - 🇸🇬 新加坡(TG频道@kxswa) 2
+      - 🇰🇷 _KR_韩国_2
       - KR_AzadNet(2)
+      - 🇺🇸 美国(油管破解资源君) 23
       - 🇺🇸 [SSR] 🇺🇲 US【付费推荐：goo.gs/vip】
-      - 🇺🇸 美国(油管破解资源君) 40
-      - 🇺🇸 美国(油管破解资源君) 39
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_237
-      - 🇺🇸 美国(油管破解资源君2.0) 5
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 23
-      - 🇺🇸 美国_1230281
-      - US_152
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 58
-      - 🇺🇸 美国_1230280
-      - US_104.149.139.189_12172022afee-514s%
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 28
       - 🇺🇸 美国(油管破解资源君) 44
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 34
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 54
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21
+      - US_AzadNet(21)
+      - 🇺🇸 美国(油管破解资源君) 40
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68
       - 🇺🇸 美国(油管破解资源君) 20
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 43
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 40
       - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 57
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 51
+      - 🇺🇸 美国(油管破解资源君2.0)
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 50
       - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 47
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 77
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 75
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 74
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 53
-      - 🇵🇱 [VMess] PL【付费推荐：goo.gs/vip】
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 55
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 52
+      - 🇺🇸 美国(油管破解资源君) 15
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 73
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 61
+      - AU_03
+      - 🇪🇺 欧洲(油管破解资源君) 38
+      - SSR
+      - 43.207.88.83443
+      - 🇪🇺 欧洲(油管破解资源君) 64
+      - 🇪🇺 欧洲(油管破解资源君2.0) 4
+      - 🇷🇺 俄罗斯(油管破解资源君) 5
+      - 未知_1230649
+      - 未知_1230647
       - 未知_1230650
-      - 🇷🇺 俄罗斯联邦_1230033
-      - FR_AzadNet
-      - Pool_🇳🇱NL_109
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 103
+      - 🇪🇺 欧洲(油管破解资源君2.0) 5
+      - GB_47
+      - DE_AzadNet(9)
       - "[VMess] CY【付费推荐：goo.gs/vip】 2"
+      - mianfeifq 267
       - 🇫🇮 芬兰_1230001
-      - 🇷🇺 俄罗斯(油管破解资源君) 3
-      - GetAFreeNode-Frankfurt
-      - 未知_1230601
-      - 未知_1230615
-      - 未知_1230620
-      - 未知_1230608
-      - 未知_1230609
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_89
+      - "| 3.54Mb"
+      - "| 4.28Mb"
+      - 🇵🇱 [VMess] PL【付费推荐：goo.gs/vip】
+      - RU_AzadNet(1)
       - Pool_🇳🇱NL_91
-      - 未知_1230612
-      - 未知_1230611
-      - 未知_1230604
-      - 🇪🇺 欧洲(油管破解资源君) 63
-      - 🇪🇺 欧洲(油管破解资源君) 58
-      - mianfeifq 254
-      - 未知_1230018
-      - 🇫🇷 法国_1230035
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_103
+      - NL_96
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - JP_71
-      - 🇸🇬 新加坡_1230438
-      - HK_AzadNet(20)
-      - SG_135
-      - 🇭🇰 香港(油管破解资源君) 3
-      - 🇸🇬 新加坡(TG频道@kxswa) 2
-      - 🇯🇵 日本_34
-      - 🇸🇬 新加坡_1230392
-      - HK_AzadNet(35)
-      - HK_AzadNet(5)
+      - 🇸🇬 新加坡(油管破解资源君) 4
+      - 🇭🇰 香港(油管破解资源君) 2
+      - 🇯🇵 日本(油管破解资源君)
+      - SG_128
+      - KR_AzadNet
+      - JP_AzadNet(12)
       - 🇰🇷 韩国_1230064
+      - HK_AzadNet(5)
+      - JP_AzadNet(19)
+      - 🇯🇵 @SSRSUB-日本V06-付费推荐dlj.tf/ssrsub 2
+      - HK_AzadNet(35)
       - Pool_🇸🇬SG_125
-      - Pool_🇸🇬SG_126
-      - JP_AzadNet(18)
+      - 🇨🇳 [VMess] 🇨🇳 TW【付费推荐：goo.gs/vip】 3
+      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8
+      - HK_AzadNet
       - HK_AzadNet(2)
+      - HK_AzadNet(4)
       - HK_AzadNet(18)
       - HK_AzadNet(19)
-      - HK_AzadNet
       - HK_AzadNet(22)
       - HK_AzadNet(23)
       - HK_AzadNet(24)
@@ -378,121 +379,121 @@ proxy-groups:
       - HK_AzadNet(30)
       - HK_AzadNet(31)
       - HK_AzadNet(32)
-      - HK_AzadNet(33)
       - HK_AzadNet(34)
-      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8
       - JP_AzadNet
       - JP_AzadNet(1)
       - JP_AzadNet(3)
       - JP_AzadNet(5)
       - JP_AzadNet(6)
       - JP_AzadNet(8)
-      - JP_AzadNet(12)
+      - 🇯🇵 日本(油管破解资源君) 3
+      - JP_AzadNet(13)
       - JP_AzadNet(14)
-      - 🇨🇳 [VMess] 🇨🇳 TW【付费推荐：goo.gs/vip】 3
-      - JP_AzadNet(19)
-      - KR_AzadNet
+      - JP_AzadNet(18)
+      - 🇸🇬 新加坡(TG频道@kxswa) 2
+      - 🇰🇷 _KR_韩国_2
       - KR_AzadNet(2)
+      - 🇺🇸 美国(油管破解资源君) 23
       - 🇺🇸 [SSR] 🇺🇲 US【付费推荐：goo.gs/vip】
-      - 🇺🇸 美国(油管破解资源君) 40
-      - 🇺🇸 美国(油管破解资源君) 39
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_237
-      - 🇺🇸 美国(油管破解资源君2.0) 5
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 23
-      - 🇺🇸 美国_1230281
-      - US_152
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 58
-      - 🇺🇸 美国_1230280
-      - US_104.149.139.189_12172022afee-514s%
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 28
       - 🇺🇸 美国(油管破解资源君) 44
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 34
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 54
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21
+      - US_AzadNet(21)
+      - 🇺🇸 美国(油管破解资源君) 40
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68
       - 🇺🇸 美国(油管破解资源君) 20
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 43
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 40
       - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 57
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 51
+      - 🇺🇸 美国(油管破解资源君2.0)
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 50
       - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 47
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 77
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 75
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 74
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 53
-      - 🇵🇱 [VMess] PL【付费推荐：goo.gs/vip】
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 55
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 52
+      - 🇺🇸 美国(油管破解资源君) 15
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 73
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 61
+      - AU_03
+      - 🇪🇺 欧洲(油管破解资源君) 38
+      - SSR
+      - 43.207.88.83443
+      - 🇪🇺 欧洲(油管破解资源君) 64
+      - 🇪🇺 欧洲(油管破解资源君2.0) 4
+      - 🇷🇺 俄罗斯(油管破解资源君) 5
+      - 未知_1230649
+      - 未知_1230647
       - 未知_1230650
-      - 🇷🇺 俄罗斯联邦_1230033
-      - FR_AzadNet
-      - Pool_🇳🇱NL_109
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 103
+      - 🇪🇺 欧洲(油管破解资源君2.0) 5
+      - GB_47
+      - DE_AzadNet(9)
       - "[VMess] CY【付费推荐：goo.gs/vip】 2"
+      - mianfeifq 267
       - 🇫🇮 芬兰_1230001
-      - 🇷🇺 俄罗斯(油管破解资源君) 3
-      - GetAFreeNode-Frankfurt
-      - 未知_1230601
-      - 未知_1230615
-      - 未知_1230620
-      - 未知_1230608
-      - 未知_1230609
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_89
+      - "| 3.54Mb"
+      - "| 4.28Mb"
+      - 🇵🇱 [VMess] PL【付费推荐：goo.gs/vip】
+      - RU_AzadNet(1)
       - Pool_🇳🇱NL_91
-      - 未知_1230612
-      - 未知_1230611
-      - 未知_1230604
-      - 🇪🇺 欧洲(油管破解资源君) 63
-      - 🇪🇺 欧洲(油管破解资源君) 58
-      - mianfeifq 254
-      - 未知_1230018
-      - 🇫🇷 法国_1230035
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_103
+      - NL_96
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇺🇸 美国(油管破解资源君) 23
       - 🇺🇸 [SSR] 🇺🇲 US【付费推荐：goo.gs/vip】
-      - 🇺🇸 美国(油管破解资源君) 40
-      - 🇺🇸 美国(油管破解资源君) 39
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_237
-      - 🇺🇸 美国(油管破解资源君2.0) 5
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 23
-      - 🇺🇸 美国_1230281
-      - US_152
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 58
-      - 🇺🇸 美国_1230280
-      - US_104.149.139.189_12172022afee-514s%
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 28
       - 🇺🇸 美国(油管破解资源君) 44
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 34
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 54
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21
+      - US_AzadNet(21)
+      - 🇺🇸 美国(油管破解资源君) 40
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68
       - 🇺🇸 美国(油管破解资源君) 20
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 43
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 40
       - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 57
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 51
+      - 🇺🇸 美国(油管破解资源君2.0)
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 50
       - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 47
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 77
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 75
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 74
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 53
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 55
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 52
+      - 🇺🇸 美国(油管破解资源君) 15
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 73
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 61
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - JP_71
-      - 🇸🇬 新加坡_1230438
-      - HK_AzadNet(20)
-      - SG_135
-      - 🇭🇰 香港(油管破解资源君) 3
-      - 🇸🇬 新加坡(TG频道@kxswa) 2
-      - 🇯🇵 日本_34
-      - 🇸🇬 新加坡_1230392
-      - HK_AzadNet(35)
-      - HK_AzadNet(5)
+      - 🇸🇬 新加坡(油管破解资源君) 4
+      - 🇭🇰 香港(油管破解资源君) 2
+      - 🇯🇵 日本(油管破解资源君)
+      - SG_128
+      - KR_AzadNet
+      - JP_AzadNet(12)
       - 🇰🇷 韩国_1230064
+      - HK_AzadNet(5)
+      - JP_AzadNet(19)
+      - 🇯🇵 @SSRSUB-日本V06-付费推荐dlj.tf/ssrsub 2
+      - HK_AzadNet(35)
       - Pool_🇸🇬SG_125
-      - Pool_🇸🇬SG_126
-      - JP_AzadNet(18)
+      - 🇨🇳 [VMess] 🇨🇳 TW【付费推荐：goo.gs/vip】 3
+      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8
+      - HK_AzadNet
       - HK_AzadNet(2)
+      - HK_AzadNet(4)
       - HK_AzadNet(18)
       - HK_AzadNet(19)
-      - HK_AzadNet
       - HK_AzadNet(22)
       - HK_AzadNet(23)
       - HK_AzadNet(24)
@@ -504,20 +505,19 @@ proxy-groups:
       - HK_AzadNet(30)
       - HK_AzadNet(31)
       - HK_AzadNet(32)
-      - HK_AzadNet(33)
       - HK_AzadNet(34)
-      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8
       - JP_AzadNet
       - JP_AzadNet(1)
       - JP_AzadNet(3)
       - JP_AzadNet(5)
       - JP_AzadNet(6)
       - JP_AzadNet(8)
-      - JP_AzadNet(12)
+      - 🇯🇵 日本(油管破解资源君) 3
+      - JP_AzadNet(13)
       - JP_AzadNet(14)
-      - 🇨🇳 [VMess] 🇨🇳 TW【付费推荐：goo.gs/vip】 3
-      - JP_AzadNet(19)
-      - KR_AzadNet
+      - JP_AzadNet(18)
+      - 🇸🇬 新加坡(TG频道@kxswa) 2
+      - 🇰🇷 _KR_韩国_2
       - KR_AzadNet(2)
   - name: 🌍 其它地区
     type: url-test
@@ -525,73 +525,74 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇵🇱 [VMess] PL【付费推荐：goo.gs/vip】
+      - AU_03
+      - 🇪🇺 欧洲(油管破解资源君) 38
+      - SSR
+      - 43.207.88.83443
+      - 🇪🇺 欧洲(油管破解资源君) 64
+      - 🇪🇺 欧洲(油管破解资源君2.0) 4
+      - 🇷🇺 俄罗斯(油管破解资源君) 5
+      - 未知_1230649
+      - 未知_1230647
       - 未知_1230650
-      - 🇷🇺 俄罗斯联邦_1230033
-      - FR_AzadNet
-      - Pool_🇳🇱NL_109
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用) 103
+      - 🇪🇺 欧洲(油管破解资源君2.0) 5
+      - GB_47
+      - DE_AzadNet(9)
       - "[VMess] CY【付费推荐：goo.gs/vip】 2"
+      - mianfeifq 267
       - 🇫🇮 芬兰_1230001
-      - 🇷🇺 俄罗斯(油管破解资源君) 3
-      - GetAFreeNode-Frankfurt
-      - 未知_1230601
-      - 未知_1230615
-      - 未知_1230620
-      - 未知_1230608
-      - 未知_1230609
-      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_89
+      - "| 3.54Mb"
+      - "| 4.28Mb"
+      - 🇵🇱 [VMess] PL【付费推荐：goo.gs/vip】
+      - RU_AzadNet(1)
       - Pool_🇳🇱NL_91
-      - 未知_1230612
-      - 未知_1230611
-      - 未知_1230604
-      - 🇪🇺 欧洲(油管破解资源君) 63
-      - 🇪🇺 欧洲(油管破解资源君) 58
-      - mianfeifq 254
-      - 未知_1230018
-      - 🇫🇷 法国_1230035
+      - 🇳🇱 Relay_🇳🇱NL-🇳🇱NL_103
+      - NL_96
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
+      - 🇺🇸 美国(油管破解资源君) 23
       - 🇺🇸 [SSR] 🇺🇲 US【付费推荐：goo.gs/vip】
-      - 🇺🇸 美国(油管破解资源君) 40
-      - 🇺🇸 美国(油管破解资源君) 39
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21
-      - 🇺🇸 Relay_🇺🇸US-🇫🇷FR_237
-      - 🇺🇸 美国(油管破解资源君2.0) 5
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 23
-      - 🇺🇸 美国_1230281
-      - US_152
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 58
-      - 🇺🇸 美国_1230280
-      - US_104.149.139.189_12172022afee-514s%
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 28
       - 🇺🇸 美国(油管破解资源君) 44
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 34
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 54
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 21
+      - US_AzadNet(21)
+      - 🇺🇸 美国(油管破解资源君) 40
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 18
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 15
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 68
       - 🇺🇸 美国(油管破解资源君) 20
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 43
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 40
       - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 57
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 51
+      - 🇺🇸 美国(油管破解资源君2.0)
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 50
       - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 47
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 77
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 75
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 74
-      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 53
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 55
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 52
+      - 🇺🇸 美国(油管破解资源君) 15
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 73
+      - 🇺🇸 [VMess] 🇺🇲 US【付费推荐：goo.gs/vip】 61
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - HK_AzadNet(20)
-      - 🇭🇰 香港(油管破解资源君) 3
-      - HK_AzadNet(35)
+      - 🇭🇰 香港(油管破解资源君) 2
       - HK_AzadNet(5)
+      - HK_AzadNet(35)
+      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8
+      - HK_AzadNet
       - HK_AzadNet(2)
+      - HK_AzadNet(4)
       - HK_AzadNet(18)
       - HK_AzadNet(19)
-      - HK_AzadNet
       - HK_AzadNet(22)
       - HK_AzadNet(23)
       - HK_AzadNet(24)
@@ -603,39 +604,37 @@ proxy-groups:
       - HK_AzadNet(30)
       - HK_AzadNet(31)
       - HK_AzadNet(32)
-      - HK_AzadNet(33)
       - HK_AzadNet(34)
-      - 🇭🇰 [VMess] 🇭🇰 HK【付费推荐：goo.gs/vip】 8
   - name: 狮城
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇸🇬 新加坡_1230438
-      - SG_135
-      - 🇸🇬 新加坡(TG频道@kxswa) 2
-      - 🇸🇬 新加坡_1230392
+      - 🇸🇬 新加坡(油管破解资源君) 4
+      - SG_128
       - Pool_🇸🇬SG_125
-      - Pool_🇸🇬SG_126
+      - 🇸🇬 新加坡(TG频道@kxswa) 2
   - name: 日本
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - JP_71
-      - 🇯🇵 日本_34
-      - JP_AzadNet(18)
+      - 🇯🇵 日本(油管破解资源君)
+      - JP_AzadNet(12)
+      - JP_AzadNet(19)
+      - 🇯🇵 @SSRSUB-日本V06-付费推荐dlj.tf/ssrsub 2
       - JP_AzadNet
       - JP_AzadNet(1)
       - JP_AzadNet(3)
       - JP_AzadNet(5)
       - JP_AzadNet(6)
       - JP_AzadNet(8)
-      - JP_AzadNet(12)
+      - 🇯🇵 日本(油管破解资源君) 3
+      - JP_AzadNet(13)
       - JP_AzadNet(14)
-      - JP_AzadNet(19)
+      - JP_AzadNet(18)
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -649,8 +648,9 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 韩国_1230064
       - KR_AzadNet
+      - 🇰🇷 韩国_1230064
+      - 🇰🇷 _KR_韩国_2
       - KR_AzadNet(2)
 rules:
  - DOMAIN,instant.arubanetworks.com,DIRECT
