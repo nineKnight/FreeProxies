@@ -19,13 +19,13 @@
 ## 使用方法
 将以下订阅链接导入相应客户端即可。链接中大部分为 SS 协议节点，少量 Vmess, Trojan ,SSR 协议节点，建议选择协议支持完整的客户端。
 
-- [多协议Base64编码](https://raw.githubusercontent.com/raysue/TopFreeProxies/master/Eternity)
-- [Clash](https://raw.githubusercontent.com/raysue/TopFreeProxies/master/Eternity.yaml)
+- [多协议Base64编码](https://raw.githubusercontent.com/nineKnight/TopFreeProxies/master/Eternity)
+- [Clash](https://raw.githubusercontent.com/nineKnight/TopFreeProxies/master/Eternity.yaml)
 
 另有国内加速链接：
 
-- [多协议Base64编码](https://fastly.jsdelivr.net/gh/raysue/TopFreeProxies@master/Eternity)
-- [Clash](https://fastly.jsdelivr.net/gh/raysue/TopFreeProxies@master/Eternity.yaml)
+- [多协议Base64编码](https://fastly.jsdelivr.net/gh/nineKnight/TopFreeProxies@master/Eternity)
+- [Clash](https://fastly.jsdelivr.net/gh/nineKnight/TopFreeProxies@master/Eternity.yaml)
 
 >`Clash`链接所使用的配置在仓库`./update/provider/`中，有相应配置文件和以国家分类的`proxy-provider`。
 >
@@ -197,4 +197,4 @@
 订阅节点仅作学习交流使用，只是对网络上节点的优选排序，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
 
 ## 星标统计
-[![Star History Chart](https://api.star-history.com/svg?repos=raysue/TopFreeProxies&type=Date)](https://star-history.com/#raysue/TopFreeProxies&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=nineKnight/TopFreeProxies&type=Date)](https://star-history.com/#nineKnight/TopFreeProxies&Date)

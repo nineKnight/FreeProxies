@@ -337,8 +337,8 @@
   },
   {
     "id": 42,
-    "remarks": "sharecentre",
-    "site": "https://sub.sharecentre.online/sub",
+    "remarks": "TG@ShareCentre",
+    "site": "https://t.me/ShareCentre",
     "url": "https://sub.sharecentre.online/sub",
     "update_method": "auto",
     "enabled": true
