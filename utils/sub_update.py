@@ -56,6 +56,12 @@ class update():
             file.close()
 
     def change_date(self,id,current_url):
+        if id == 46:
+            new_url = datetime.today().strftime('http://weoknow.com/data/%m%d/2/z1.txt')
+        if id == 45:
+            new_url = datetime.today().strftime('http://weoknow.com/data/%m%d/1/z1.txt')
+        if id == 44:
+            new_url = datetime.today().strftime('https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
         if id == 41:
             new_url = datetime.today().strftime('https://freenode.com/wp-content/uploads/%Y/%m/%m%d.txt')
         if id == 40:

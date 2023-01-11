@@ -342,5 +342,37 @@
     "url": "https://sub.sharecentre.online/sub",
     "update_method": "auto",
     "enabled": true
+  },
+  {
+    "id": 43,
+    "remarks": "TG@ripaojiedian",
+    "site": "https://t.me/ripaojiedian",
+    "url": "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 44,
+    "remarks": "v2rayshare",
+    "site": "https://v2rayshare.com",
+    "url": "https://v2rayshare.com/wp-content/uploads/2023/01/20230110.txt",
+    "update_method": "change_date",
+    "enabled": true
+  },
+  {
+    "id": 45,
+    "remarks": "weoknow",
+    "site": "http://weoknow.com",
+    "url": "http://weoknow.com/data/0110/1/z1.txt",
+    "update_method": "change_date",
+    "enabled": true
+  },
+  {
+    "id": 46,
+    "remarks": "weoknow",
+    "site": "http://weoknow.com",
+    "url": "http://weoknow.com/data/0110/2/z1.txt",
+    "update_method": "change_date",
+    "enabled": true
   }
 ]
