@@ -326,5 +326,21 @@
     "url": "https://clashnode.com/wp-content/uploads/2023/01/20230111.txt",
     "update_method": "change_date",
     "enabled": true
+  },
+  {
+    "id": 41,
+    "remarks": "TG@FreeNode",
+    "site": "https://t.me/freenodechannel",
+    "url": "https://freenode.me/wp-content/uploads/2023/01/0110.txt",
+    "update_method": "change_date",
+    "enabled": true
+  },
+  {
+    "id": 42,
+    "remarks": "sharecentre",
+    "site": "https://sub.sharecentre.online/sub",
+    "url": "https://sub.sharecentre.online/sub",
+    "update_method": "auto",
+    "enabled": true
   }
 ]

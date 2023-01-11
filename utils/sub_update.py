@@ -56,19 +56,14 @@ class update():
             file.close()
 
     def change_date(self,id,current_url):
+        if id == 41:
+            new_url = datetime.today().strftime('https://freenode.com/wp-content/uploads/%Y/%m/%m%d.txt')
         if id == 40:
             new_url = datetime.today().strftime('https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
         if id == 36:
-            today = datetime.today().strftime('%Y%m%d')
-            this_month = datetime.today().strftime('%Y%m')
-            url_front = 'https://nodefree.org/dy/'
-            url_end = '.txt'
-            new_url = url_front + this_month + '/' + today + url_end
+            new_url = datetime.today().strftime('https://nodefree.org/dy/%Y/%m/%Y%m%d.txt')
         if id == 0:
-            today = datetime.today().strftime('%m%d')
-            url_front = 'https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/'
-            url_end = '.txt'
-            new_url = url_front + today + url_end
+            new_url = datetime.today().strftime('https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/%m%d.txt')
 
         if self.url_updated(new_url):
             return new_url
