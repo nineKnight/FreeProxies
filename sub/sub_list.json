@@ -291,7 +291,7 @@
     "id": 36,
     "remarks": "Nodefree.org",
     "site": "https://github.com/Fukki-Z/nodefree",
-    "url": "https://nodefree.org/dy/202212/20221231.txt",
+    "url": "https://nodefree.org/dy/2023/01/20230113.txt",
     "update_method": "change_date",
     "enabled": true
   },
@@ -363,7 +363,7 @@
     "id": 45,
     "remarks": "weoknow",
     "site": "http://weoknow.com",
-    "url": "http://weoknow.com/data/0110/1/z1.txt",
+    "url": "http://weoknow.com/data/0113/1/z1.txt",
     "update_method": "change_date",
     "enabled": true
   },
@@ -371,7 +371,7 @@
     "id": 46,
     "remarks": "weoknow",
     "site": "http://weoknow.com",
-    "url": "http://weoknow.com/data/0110/2/z1.txt",
+    "url": "http://weoknow.com/data/0113/2/z1.txt",
     "update_method": "change_date",
     "enabled": true
   }
