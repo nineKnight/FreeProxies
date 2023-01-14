@@ -1,9 +1,9 @@
 # TopFreeProxies
-[![GitHub Workflow Status](https://github.com/alanbobs999/topfreeproxies/actions/workflows/get-proxies.yml/badge.svg)](https://github.com/alanbobs999/TopFreeProxies/actions/workflows/get-proxies.yml) 
+[![GitHub Workflow Status](https://github.com/nineKnight/topfreeproxies/actions/workflows/get-proxies.yml/badge.svg)](https://github.com/nineKnight/TopFreeProxies/actions/workflows/get-proxies.yml) 
 
-![Watchers](https://img.shields.io/github/watchers/alanbobs999/topfreeproxies) ![Stars](https://img.shields.io/github/stars/alanbobs999/topfreeproxies) ![Forks](https://img.shields.io/github/forks/alanbobs999/topfreeproxies) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=alanbobs999.topfreeproxies) ![LICENSE](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green.svg)
+![Watchers](https://img.shields.io/github/watchers/nineKnight/topfreeproxies) ![Stars](https://img.shields.io/github/stars/nineKnight/topfreeproxies) ![Forks](https://img.shields.io/github/forks/nineKnight/topfreeproxies) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=nineKnight.topfreeproxies) ![LICENSE](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green.svg)
 
-[仓库介绍](https://github.com/alanbobs999/TopFreeProxies#仓库介绍) | [使用方法](https://github.com/alanbobs999/TopFreeProxies#使用方法) | [节点信息](https://github.com/alanbobs999/TopFreeProxies#节点信息) | [仓库声明](https://github.com/alanbobs999/TopFreeProxies#仓库声明)
+[仓库介绍](#仓库介绍) | [使用方法](#使用方法) | [节点信息](#节点信息) | [仓库声明](#仓库声明)
 
 ## 仓库介绍
 本仓库自动化功能全部基于 `GitHub Actions` 实现，如有需要可以自行 Fork 实现个性化需求，功能配置在 `./utils/config.ini` 配置文件中。
@@ -136,7 +136,7 @@
 
 ### 所有节点
 合并节点总数: `3142`
-[节点链接](https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge_base64.txt)
+[节点链接](https://raw.githubusercontent.com/nineKnight/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
 - [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `124`
