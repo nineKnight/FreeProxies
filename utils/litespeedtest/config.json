@@ -5,11 +5,11 @@
     "sortMethod": "rspeed",
     "concurrency": 16,
     "testMode": 2,
-    "subscription": "../../sub/sub_merge_base64.txt",
+    "subscription": "./sub/sub_merge_base64.txt",
     "timeout": 8,
     "language": "en",
     "fontSize": 24,
     "theme": "rainbow",
-    "generatePicMode": 0,
-    "outputRange": "99"
+    "generatePicMode": 3,
+    "outputRange": "200,1100"
 }

@@ -21,9 +21,11 @@ def speedtest(subscription,output_range,other_config={'concurrency': -1, 'timeou
 
     confighandler(config) # Initialize configurations
     if os.name == 'posix':
-        args = ['./lite-linux-amd64', '--config', './config.json', '--test', 'Eternity']
+        #args = ['./lite-linux-amd64', '--config', './config.json', '--test', 'Eternity']
+        args = ['./lite-linux-amd64', '--config', './config.json', '--test', subscription]
     elif os.name == 'nt':
-        args = ['.\lite-windows-amd64.exe', '--config', './config.json', '--test', 'Eternity']
+        #args = ['.\lite-windows-amd64.exe', '--config', './config.json', '--test',  'Eternity']
+        args = ['.\lite-windows-amd64.exe', '--config', './config.json', '--test', subscription]
     litespeedtest = subprocess.Popen(args,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,universal_newlines=True,encoding='utf-8',bufsize=1)
 
     # Progress bar
@@ -46,7 +48,7 @@ def speedtest(subscription,output_range,other_config={'concurrency': -1, 'timeou
 
     # Generate proxies list
     with open('./out.json', 'r', encoding='utf-8') as f:
-        proxies_all = json.load(f)
+        proxies_all = json.load(f)['nodes']
     #Remove temp file
     os.remove('./out.json')
     os.chdir(work_dir)
@@ -61,8 +63,9 @@ def speedtest(subscription,output_range,other_config={'concurrency': -1, 'timeou
         output_range = {'begin': 0, 'end': int(output_range)}
     for index in range(output_range['begin'],output_range['end']):
         try:
-            proxy = proxies_all[index]['Link']
-            output_list.append(proxy)
+            proxy = proxies_all[index]
+            if proxy['isok']:
+                output_list.append(proxy['link'])
         except Exception:
             pass
     content = base64.b64encode('\n'.join(output_list).encode('utf-8')).decode('ascii')
