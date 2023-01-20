@@ -110,7 +110,7 @@ def progressbar(current,range,desc,size=60):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Test nodes, and output base64 subscription file.')
-    parser.add_argument('--subscription', '-s', help='Subcription url or local file path', default='https://raw.githubusercontent.com/alanbobs999/TopFreeProxies/master/sub/sub_merge_base64.txt')
+    parser.add_argument('--subscription', '-s', help='Subcription url or local file path', default='https://raw.githubusercontent.com/nineKnight/FreeProxies/master/sub/sub_merge_base64.txt')
     parser.add_argument('--range', '-r', help='Target proxies range to output', default="99")
     parser.add_argument('--path', '-p', help='Output file path', default='./output.txt')
     args = parser.parse_args()

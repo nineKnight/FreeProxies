@@ -102,7 +102,7 @@ class merge():
                         f.close()
                     repo_amount_dic.setdefault(id, amount)
                     line = f'- [{remarks}]({repo_site}), 节点数量: `{amount}`\n'
-                if remarks != "alanbobs999/TopFreeProxies":
+                if remarks != "nineKnight/FreeProxies":
                     thanks.append(line)
             f.close()
 
