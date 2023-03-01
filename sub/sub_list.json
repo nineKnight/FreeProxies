@@ -363,16 +363,16 @@
     "id": 45,
     "remarks": "weoknow",
     "site": "http://weoknow.com",
-    "url": "http://weoknow.com/data/0113/1/z1.txt",
-    "update_method": "change_date",
+    "url": "http://weoknow.com/data/dayupdate/1/z1.txt",
+    "update_method": "auto",
     "enabled": true
   },
   {
     "id": 46,
     "remarks": "weoknow",
     "site": "http://weoknow.com",
-    "url": "http://weoknow.com/data/0113/2/z1.txt",
-    "update_method": "change_date",
+    "url": "http://weoknow.com/data/dayupdate/2/z1.txt",
+    "update_method": "auto",
     "enabled": true
   }
 ]
