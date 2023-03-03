@@ -374,5 +374,53 @@
     "url": "http://weoknow.com/data/dayupdate/2/z1.txt",
     "update_method": "auto",
     "enabled": true
+  },
+  {
+    "id": 47,
+    "remarks": "mfuu/v2ray",
+    "site": "https://github.com/mfuu/v2ray",
+    "url": "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 48,
+    "remarks": "oslook/clash-freenode",
+    "site": "https://github.com/oslook/clash-freenode",
+    "url": "https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 49,
+    "remarks": "vveg26/get_proxy",
+    "site": "https://github.com/vveg26/get_proxy",
+    "url": "https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/clash.config.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 50,
+    "remarks": "TG@xrayfree",
+    "site": "https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash",
+    "url": "https://tt.vg/freeclash",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 51,
+    "remarks": "TG@kxswa",
+    "site": "https://t.me/kxswa",
+    "url": "https://kxswa.tk/clash",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 52,
+    "remarks": "githubvpn007/v2rayNvpn",
+    "site": "https://github.com/githubvpn007/v2rayNvpn#%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9",
+    "url": "https://9527521.xyz/pubconfig/hD45GzVY9viTd6ef",
+    "update_method": "auto",
+    "enabled": true
   }
 ]
